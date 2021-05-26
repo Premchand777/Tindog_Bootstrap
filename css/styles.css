@@ -3,6 +3,7 @@ body {
   background-color: #f8f9fa;
 }
 
+/* Title Section */
 #title {
   background-color: #ff4c68;
   color: #f8f9fa;
@@ -25,6 +26,10 @@ body {
   font-size: 1.2rem;
 }
 
+#green-link:hover {
+  color: #adebad;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3.5rem;
@@ -33,22 +38,18 @@ h1 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 5%;
 }
 
 .pad-above-h1 {
   padding-top: 4.5rem;
+  margin-bottom: 4rem;
 }
 
 .left-btn-spaces-color {
   margin-top: 6.5%;
   margin-right: 3%;
   padding-bottom: 2%;
-  background-color: #2d3339;
-}
-
-.left-btn-spaces-color:hover {
-  background-color: #171a1c;
 }
 
 .right-btn-mar-top {
@@ -56,10 +57,12 @@ h1 {
   padding-bottom: 2%;
 }
 
-.dog-pad-left {
+.title-img {
   margin-left: 2rem;
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 23.3%;
 }
 
 .apple-icon {
@@ -72,14 +75,21 @@ h1 {
   height: 1.2rem;
 }
 
-/* Features */
+/* Features Section */
 #features {
   background-color: #f8f9fa;
+  position: relative;
+  /* SAME RESULT IF WE UNCOMMENTED THe BELOW LINE */
+  z-index: 1;
+}
+
+.features-container {
+  margin-bottom: 4%;
 }
 
 .features-top-div {
-  margin: 7rem 0;
-  padding: 2.7rem 0 1.5rem;
+  margin: 0 0 7rem;
+  padding: 8rem 0 1.5rem;
 }
 
 .features-p-sizing {
@@ -140,7 +150,7 @@ h2 {
 /* Pricing Section */
 .h2-price-heading {
   width: 60%;
-  color: #2d3339;
+  color: #434d56;
   font-family: 'Montserrat-Bold', sans-serif;
   font-size: 2.5rem;
   font-weight: Bold;
@@ -154,7 +164,7 @@ h2 {
 }
 
 .pricing-header {
-  margin: 4rem 0 1rem;
+  margin: 8rem 0 1rem;
 }
 
 .card-sec-mar-top {
@@ -169,7 +179,7 @@ h2 {
 
 .pricing-h2s {
   width: auto;
-  color: #ff4c68;
+  color: #f8f9fa;
   font-family: 'Montserrat-Bold', sans-serif;
   font-size: 3.42rem;
   font-weight: Bold;
@@ -178,48 +188,212 @@ h2 {
 
 .offers-p {
   margin: 0.4rem auto;
-  color: #808080;
+  color: #ffcccc;
   font-weight: bold;
 }
 
 .two-card-last-p {
   margin-bottom: 20%;
-  color: #808080;
+  color: #ffcccc;
   font-weight: bold;
 }
 
 .third-card-last-p {
   margin-bottom: 10%;
-  color: #808080;
+  color: #ffcccc;
   font-weight: bold;
 }
 
 .card {
   margin: auto auto;
-  background: #ffb3be;
-  box-shadow: 5px 5px 5px 5px grey;
+  background: #ff3352;
+  border: 2px solid #ff1a3c;
+  box-shadow: 15px 15px 15px grey;
 }
 
 .card-title {
   background: #fff;
-  color: #808080;
+  color: #ff8093;
+  font-size: 22px;
   border-radius: 16px;
-  border: 3px solid #ffb3be;
-  box-shadow: 1.3px 1.5px 5px 1.3px #fff;
+  border: 2px solid #ff3352;
+  box-shadow: 1.5px 1.5px 3px #fff;
 }
 
+/*Below style Applies for all buttons in the page */
 .btn {
   width: 13rem;
   height: 3rem;
-  background: #ff4c68;
-  border: 1px solid #f8f9fa;
-  color: #f8f9fa;
+  background: #f8f9fa;
+  border: 2px solid #ff1a3c;
+  color: #ff4c68;
   font-weight: bold;
 }
 
 .btn:hover {
-  border: 1px solid #ff4c68;
-  background: #f8f9fa;
-  color: #ff4c68;
+  border: 1px solid #f8f9fa;
+  background: #70db70;
+  color: #f8f9fa;
   font-size: 15px;
+}
+
+/* Call to Action Section */
+#cta {
+  background-color: #ff3352;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+#cta h3 {
+  color: #f8f9fa;
+  font-size: 2.8rem;
+  font-weight: Bold;
+  margin: 0 auto;
+}
+
+.last-btns {
+  margin: 3.5rem 1rem auto;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #f2f2f2;
+  padding: 4rem 0 1rem;
+  text-align: center;
+  color: #8c8c8c;
+}
+
+.footer-icons {
+  font-size: 1.5rem;
+  margin: 0.4rem;
+}
+
+/* Media Query 1 */
+@media (max-width: 990px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+    margin-top: 8%;
+  }
+
+  .med-1-cf {
+    padding-bottom: 1%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1288px) and (min-width: 990px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+    margin-left: 23.5%;
+  }
+
+  .left-btn-spaces-color {
+    margin-top: 15%;
+  }
+
+  .med-1-cf {
+    padding-bottom: 1%;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .features-container {
+    padding: 5rem;
+  }
+}
+
+@media (max-width: 1016px) and (min-width: 807px) {
+  .med-1-cm {
+    margin-top: 5rem;
+  }
+
+  .features-container {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 830px) {
+  .med-1-cm {
+    margin: 2rem auto;
+  }
+}
+
+@media (max-width: 991px) {
+  h2 {
+    color: #f8f9fa;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 150%;
+    font-weight: Bold;
+    line-height: 1.5;
+  }
+
+  .testimonial-p {
+    color: #f8f9fa;
+    font-size: 70%;
+  }
+
+  .tesimonial-img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 1.15rem;
+  }
+
+  .press-img {
+    width: 10%;
+    height: 10%;
+    margin: 20px 30px 50px;
+  }
+}
+
+@media (min-width: 680px) and (max-width: 990px) {
+  h2 {
+    color: #f8f9fa;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 220%;
+    font-weight: Bold;
+    line-height: 1.5;
+  }
+
+  .testimonial-p {
+    color: #f8f9fa;
+    font-size: 70%;
+  }
+
+  .tesimonial-img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 1.15rem;
+  }
+
+  .press-img {
+    width: 10%;
+    height: 10%;
+    margin: 20px 30px 50px;
+  }
+}
+
+@media (max-width: 636px) {
+  #title {
+    text-align: center;
+  }
+
+  .left-btn-spaces-color {
+    margin-left: 3.5%;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 55%;
+    margin-left: 1.5%;
+  }
 }

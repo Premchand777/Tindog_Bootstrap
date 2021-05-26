@@ -29,7 +29,7 @@
 
   <section id="title">
 
-    <div class="container-fluid">
+    <div class="container-fluid med-1-cf">
       <!-- Nav Bar -->
 
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -40,13 +40,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" id="green-link" href="">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" id="green-link" href="">Download</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" id="green-link" href="">Contact</a>
             </li>
           </ul>
         </div>
@@ -57,18 +57,19 @@
       <div class="row pad-above-h1">
         <div class="col-lg-6">
           <h1><strong>Meet new and interesting dogs nearby.</strong></h1>
-          <button type="button" class="btn btn-lg btn-dark left-btn-spaces-color"><img class="apple-icon" src="images/apple.png"> Download</button>
+          <button type="button" class="btn btn-lg btn-dark left-btn-spaces-color" style="background-color: #2d3339; border: 1px solid #171a1c"><img class="apple-icon" src="images/apple.png"> Download</button>
           <button type="button" class="btn btn-lg btn-outline-light right-btn-mar-top"><img class="playstore-icon" src="images/play-store.png"> Download</button>
         </div>
 
         <div class="col-lg-6">
           <div>
-            <img class="dog-pad-left" src="images/iphone6.png" alt="iphone-mockup">
+            <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
           </div>
         </div>
       </div>
     </div>
   </section>
+
 
   <!-- Features -->
 
@@ -115,7 +116,7 @@
         <button type="button" data-bs-target="#carousel-man_slide-indicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="1650">
+        <div class="carousel-item active" data-bs-interval="3500">
           <center class="testimonial-center-box">
             <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
             <img class="tesimonial-img" src="images/dog-img.jpg" alt="dog-profile">
@@ -123,7 +124,7 @@
           </center>
         </div>
 
-        <div class="carousel-item" data-bs-interval="1650">
+        <div class="carousel-item" data-bs-interval="3500">
           <center class="testimonial-center-box">
             <h2>My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
             <img class="tesimonial-img" src="images/lady-img.jpg" alt="lady-profile">
@@ -131,7 +132,7 @@
           </center>
         </div>
 
-        <div class="carousel-item" data-bs-interval="1650">
+        <div class="carousel-item" data-bs-interval="3500">
           <center class="testimonial-center-box">
             <h2>Tindog provided me the best friendly dog at low cost. And they made me train my dog in an awesome way!</h2>
             <img class="tesimonial-img" src="images/PremZ.jpg" alt="prem-profile">
@@ -148,10 +149,6 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
-
-
-
   </section>
 
 
@@ -175,15 +172,10 @@
       <p class="pricing-title-p">Simple and affordable price plans for your and your dog.</p>
     </center>
 
-
-
-
-    <div class="container-fluid">
+    <div class="container-fluid features-container">
       <center class="card-sec-center-mar-top">
-
-
         <div class="row card-sec-mar-top">
-          <div class="col-md-6 card" style="width: 18rem;">
+          <div class="col-md-6 card med-1-cm" style="width: 18rem;">
             <div class="card-body">
               <h3 class="card-title">Chihuahua</h3>
               <h2 class="pricing-h2s">Free</h2>
@@ -193,7 +185,7 @@
               <button class="btn btn-primary">Sign Up & Pay</button>
             </div>
           </div>
-          <div class="col-md-6 card" style="width: 18rem;">
+          <div class="col-md-6 card med-1-cm" style="width: 18rem;">
             <div class="card-body">
               <h3 class="card-title">Labrador</h3>
               <h2 class="pricing-h2s">$49 / mo</h2>
@@ -203,7 +195,7 @@
               <button type="button" class="btn btn-primary">Sign Up & Pay</button>
             </div>
           </div>
-          <div class="col-md-7.5 card" style="width: 18rem;">
+          <div class="col-md-7.5 card med-1-cm" style="width: 18rem;">
             <div class="card-body">
               <h3 class="card-title">Mastiff</h3>
               <h2 class="pricing-h2s">$99 / mo</h2>
@@ -217,7 +209,6 @@
         </div>
       </center>
     </div>
-
   </section>
 
 
@@ -226,20 +217,20 @@
   <section id="cta">
 
     <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <button type="button" class="btn btn-lg btn-dark last-btns" style="background-color: #2d3339;"><img class="apple-icon" src="images/apple.png"> Download</button>
+    <button type="button" class="btn btn-lg btn-outline-light last-btns"><img class="playstore-icon" src="images/play-store.png"> Download</button>
   </section>
 
 
   <!-- Footer -->
 
   <footer id="footer">
-
+    <i class="bi bi-facebook footer-icons"></i>
+    <i class="bi bi-twitter footer-icons"></i>
+    <i class="bi bi-instagram footer-icons"></i>
+    <i class="bi bi-envelope-fill footer-icons"></i>
     <p>© Copyright 2018 TinDog</p>
-
   </footer>
-
 
 </body>
 
