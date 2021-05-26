@@ -1,0 +1,225 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f9fa;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #f8f9fa;
+}
+
+.navbar-brand {
+  color: #f8f9fa;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1.125rem;
+  /*-- 18px */
+}
+
+.nav-link {
+  font-family: 'Montserrat-Light', 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.28;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.pad-above-h1 {
+  padding-top: 4.5rem;
+}
+
+.left-btn-spaces-color {
+  margin-top: 6.5%;
+  margin-right: 3%;
+  padding-bottom: 2%;
+  background-color: #2d3339;
+}
+
+.left-btn-spaces-color:hover {
+  background-color: #171a1c;
+}
+
+.right-btn-mar-top {
+  margin-top: 6.5%;
+  padding-bottom: 2%;
+}
+
+.dog-pad-left {
+  margin-left: 2rem;
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+.apple-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.playstore-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+/* Features */
+#features {
+  background-color: #f8f9fa;
+}
+
+.features-top-div {
+  margin: 7rem 0;
+  padding: 2.7rem 0 1.5rem;
+}
+
+.features-p-sizing {
+  padding: 0 5rem;
+  color: #808080;
+}
+
+.bi {
+  color: #ff8093;
+  font-size: 3rem;
+}
+
+.bi:hover {
+  color: #e60022;
+  font-size: 4rem;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ff4c68;
+}
+
+.testimonial-center-box {
+  padding: 7% 0 5%;
+}
+
+h2 {
+  width: 70%;
+  color: #f8f9fa;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3.75rem;
+  font-weight: Bold;
+  line-height: 1.5;
+}
+
+.testimonial-p {
+  color: #f8f9fa;
+  font-size: 1.15rem;
+}
+
+.tesimonial-img {
+  width: 10rem;
+  border-radius: 50%;
+  margin: 1.15rem;
+}
+
+/* Press Section */
+#press {
+  background: #ff4c68;
+  text-align: center;
+}
+
+.press-img {
+  height: 35px;
+  margin: 20px 30px 50px;
+}
+
+/* Pricing Section */
+.h2-price-heading {
+  width: 60%;
+  color: #2d3339;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 2.5rem;
+  font-weight: Bold;
+  line-height: 1.5;
+}
+
+.pricing-title-p {
+  color: #808080;
+  font-size: 1rem;
+  width: 50%;
+}
+
+.pricing-header {
+  margin: 4rem 0 1rem;
+}
+
+.card-sec-mar-top {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.card-sec-center-mar-top {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.pricing-h2s {
+  width: auto;
+  color: #ff4c68;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3.42rem;
+  font-weight: Bold;
+  line-height: 1.5;
+}
+
+.offers-p {
+  margin: 0.4rem auto;
+  color: #808080;
+  font-weight: bold;
+}
+
+.two-card-last-p {
+  margin-bottom: 20%;
+  color: #808080;
+  font-weight: bold;
+}
+
+.third-card-last-p {
+  margin-bottom: 10%;
+  color: #808080;
+  font-weight: bold;
+}
+
+.card {
+  margin: auto auto;
+  background: #ffb3be;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+
+.card-title {
+  background: #fff;
+  color: #808080;
+  border-radius: 16px;
+  border: 3px solid #ffb3be;
+  box-shadow: 1.3px 1.5px 5px 1.3px #fff;
+}
+
+.btn {
+  width: 13rem;
+  height: 3rem;
+  background: #ff4c68;
+  border: 1px solid #f8f9fa;
+  color: #f8f9fa;
+  font-weight: bold;
+}
+
+.btn:hover {
+  border: 1px solid #ff4c68;
+  background: #f8f9fa;
+  color: #ff4c68;
+  font-size: 15px;
+}
